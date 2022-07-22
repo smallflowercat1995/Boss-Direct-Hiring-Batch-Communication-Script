@@ -3,14 +3,14 @@
 Boss直聘批量投递脚本，Boss没有批量投递功能，而且Boss回复率太低 ，为了提高找工作效率而制作，将就能用
 
 ## 依赖
-  Python 程序
-  Edge 浏览器
-  Edge webdriver：https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+  Python 程序  
+  Edge 浏览器  
+  Edge webdriver：https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/  
 
 ### 注意
-  Edge webdriver 和 Edge 浏览器版本要统一，浏览器地址栏输入 edge://version/ 可以查看浏览器版本
-  执行脚本首先会给用户 70秒（这个可以自己修改时间）登录获取到 cookie 文件的时间  
-  执行脚本登陆完成后会再给用户 300秒（这个可以自己修改时间）通过 Edge 浏览器安装 J2TEAM Cookies 插件，并提取浏览器可以使用的 cookie 
+  Edge webdriver 和 Edge 浏览器版本要统一，浏览器地址栏输入 edge://version/ 可以查看浏览器版本  
+  执行脚本首先会给用户 70秒（这个可以自己修改时间）登录获取到 cookie 文件的时间   
+  执行脚本登陆完成后会再给用户 300秒（这个可以自己修改时间）通过 Edge 浏览器安装 J2TEAM Cookies 插件，并提取浏览器可以使用的 cookie   
   
   搜索链接怎么配置，其实很简单，随便打开浏览器登录 Boss 直聘
 
