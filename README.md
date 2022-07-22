@@ -1,6 +1,7 @@
 # Boss-Direct-Hiring-Batch-Communication-Script
 ## 描述 
 Boss直聘批量投递脚本，Boss没有批量投递功能，而且Boss回复率太低 ，为了提高找工作效率而制作，将就能用
+所以这是自用的，我不会展示图片的，只用文字的描述，这样懂我的人自然会懂，不懂的就自然会放弃
 
 ## 依赖
   Python 程序  
