@@ -24,7 +24,7 @@ from  lxml import etree
 login_url='https://login.zhipin.com/?ka=header-login'
 home_url='https://www.zhipin.com/'
 # 浏览器搜索参数的链接地址
-search_url='https://www.zhipin.com/web/geek/job?query=%E8%BF%90%E7%BB%B4%E5%BC%80%E5%8F%91&city=101010100&experience=103,101&degree=202&salary=404&areaBusiness=110105,110114,110102,110108'
+search_url='https://www.zhipin.com/web/geek/job?query=运维开发&city=101010100&experience=103,101&degree=202&salary=404&areaBusiness=110105,110114,110102,110108'
 
 cookie_file_name='www.zhipin.com.json'
 # 有订阅的时候可能会报错
