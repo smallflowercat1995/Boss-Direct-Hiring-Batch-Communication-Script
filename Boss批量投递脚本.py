@@ -24,7 +24,7 @@ from  lxml import etree
 login_url='https://login.zhipin.com/?ka=header-login'
 home_url='https://www.zhipin.com/'
 # 浏览器搜索参数的链接地址
-search_url='https://www.zhipin.com/web/geek/job?query=%E5%88%9D%E7%BA%A7%E5%AE%9E%E6%96%BD%E8%BF%90%E7%BB%B4&city=101010100&experience=103,101&degree=202&position=100401,100402&salary=404&areaBusiness=110114,110105,110108,110102'
+search_url='https://www.zhipin.com/web/geek/job?query=%E8%BF%90%E7%BB%B4%E5%BC%80%E5%8F%91&city=101010100&experience=103,101&degree=202&salary=404&areaBusiness=110105,110114,110102,110108'
 
 cookie_file_name='www.zhipin.com.json'
 # 有订阅的时候可能会报错
@@ -35,6 +35,7 @@ button_next='//*[@id="wrap"]/div[2]/div[2]/div/div[1]/div[1]/div/div/div/a[last(
 title_text='//*[@id="wrap"]/div[2]/div[2]/div/div[1]/div[1]/ul/li/div[1]/a/div[1]/span[1]'
 chat_text='//*[@id="main"]/div[1]/div/div/div[2]/div[3]/div[1]/a[last()]'
 max_text='/html/body/div[12]/div[2]/div[2]/p/text()'
+search_button='//*[@id="wrap"]/div[2]/div[1]/div[1]/div[1]/a[last()]'
 
 # 解析数据
 def parser_page():
@@ -111,9 +112,13 @@ def click_page():
             url=f'{search_url}&page={page}'
             print(url)
             bro.get(url)
-            for i in range(1,11):
+            for i in range(1,6):
                 time.sleep(1)
-                print(f'共需要等待10秒，已经经过{i}秒')
+                print(f'共需要等待5秒，已经经过{i}秒')
+            bro.execute_script("arguments[0].click();", bro.find_element(by=By.XPATH, value=search_button))
+            for i in range(1,6):
+                time.sleep(1)
+                print(f'共需要等待5秒，已经经过{i}秒')
             if NodeExists(f'{subscription_close}'):
                 # bro.execute_script("arguments[0].click();", bro.find_elements_by_xpath(f'{subscription_close}')[0])
                 bro.execute_script("arguments[0].click();", bro.find_elements(by=By.XPATH, value=subscription_close)[0])
