@@ -2,7 +2,14 @@
 ## 描述 
 Boss直聘批量投递脚本，Boss没有批量投递功能，而且Boss回复率太低 ，为了提高找工作效率而制作，将就能用  
 ~~所以这是自用的，我不会展示图片的，只用文字的描述，这样懂我的人自然会懂，不懂的就自然会放弃~~  
-
+![Watchers](https://img.shields.io/github/watchers/smallflowercat1995/Boss-Direct-Hiring-Batch-Communication-Script) ![Stars](https://img.shields.io/github/stars/smallflowercat1995/Boss-Direct-Hiring-Batch-Communication-Script) ![Forks](https://img.shields.io/github/forks/smallflowercat1995/Boss-Direct-Hiring-Batch-Communication-Script) ![Vistors](https://visitor-badge.laobi.icu/badge?page_id=smallflowercat1995.Boss-Direct-Hiring-Batch-Communication-Script) ![LICENSE](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
+<a href="https://star-history.com/#smallflowercat1995/Boss-Direct-Hiring-Batch-Communication-Script&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=smallflowercat1995/Boss-Direct-Hiring-Batch-Communication-Script&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=smallflowercat1995/Boss-Direct-Hiring-Batch-Communication-Script&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=smallflowercat1995/Boss-Direct-Hiring-Batch-Communication-Script&type=Date" />
+  </picture>
+</a>
 
 ## 依赖
   Python 程序  
